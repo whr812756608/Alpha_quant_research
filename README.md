@@ -1,7 +1,8 @@
 # Alpha Quantitative Research on China A-share Market
 
 ## Overview
-This repo is dedicated to the analysis of the China A-share market, utilizing minute-level data from 2018 to 2021, covering over 5000 stocks across major indices including HS300, ZZ500, ZZ1000, and ZZ9999.  The data covers minute-by-minute price and volume data (`1min-pv`) from the 9:30 AM to 3:30 PM trading window.
+This repo is dedicated to the analysis of the China A-share market, utilizing minute-level data from 2018 to 2021, covering over 5000 stocks across major indices including HS300, ZZ500, ZZ1000, and ZZ9999. The data covers minute-by-minute price and volume data (`1min-pv`) from the 9:30 AM to 3:30 PM trading window.
+
 ## Features
 
 - **Data Loader**: Streamlines the process of loading financial data into memory, capable of handling large datasets efficiently. Supports fetching data for a specific date or a range of dates from specified tables and fields.
@@ -17,6 +18,20 @@ This repo is dedicated to the analysis of the China A-share market, utilizing mi
 
 - **Alpha Performance**: Provides robust tools for evaluating alpha performance and calculating PnL. This component not only measures overall performance but also generates detailed daily statistics and visualizations.
   - Example configuration: `cfg_list = ['alpha1_name-args_set1-univ']`
+
+- **Alphas**: The alpha signals are developed using statistical techniques, machine learning, and deep learning models, including:
+    - Momentum and reversion
+    - Volatility
+    - Price and volume distribution
+    - Correlation
+    - Illiquidity
+    - LSTM, RNN, GRU
+    - GAN, CNN
+
+- The alpha algorithm, alpha combination, trading strategy, and portfolio optimization algorithms are not disclosed to the public.
+
+
+
 
 
 
